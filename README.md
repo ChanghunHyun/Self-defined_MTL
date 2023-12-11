@@ -26,7 +26,6 @@ Below we describe which labels the auxiliary tasks in each dataset were assigned
 Example of assigning labels for each auxiliary task based on identity.
 MNIST has 10 digit classes from 0 to 9 as identity labels. The two auxiliary tasks are assigned as below.
 | identity | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |
-|----------|---|---|---|---|---|---|---|---|---|---|
 | auxtask1 | 0 | 1 | 0 | 1 | 0 | 1 | 0 | 1 | 0 | 1 |
 | auxtask2 | 0 | 0 | 1 | 1 | 0 | 1 | 0 | 1 | 0 | 0 |
 
