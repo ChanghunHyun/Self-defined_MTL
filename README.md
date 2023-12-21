@@ -1,10 +1,12 @@
 # Regarding the repository
 The dataset files were initially created for personal academic purpose but have been uploaded, considering their potential usefulness for other researchers in the field.
-The data files can be downloaded from the following Google Drive link.  =>  https://drive.google.com/drive/folders/10FVu_ap3EeIqCQJ2UxkBrdccSAd-7rHU?usp=sharing
 The dataset files contain manually generated labels of MNIST, CIFAR10, GTSRB, SVHN, and Tiny-ImageNet for multi-task learning.
 The auxiliary tasks were generated based on the built-in labels (identity labels) provided by the original dataset.
 The auxiliary tasks were generated based on the visual or abstract characteristics of the data. 
 Note that the manually generated labels may not accurately categorize each data sample. Especially the auxiliary tasks for Tiny ImageNet were generated with rough categorization.
+
+# Link to Data files
+https://drive.google.com/drive/folders/10FVu_ap3EeIqCQJ2UxkBrdccSAd-7rHU?usp=sharing
 
 # Regarding the labels of auxiliary tasks.
 Below we describe which labels the auxiliary tasks in each dataset were assigned. The number in parentheses is the actual assigned label value in python.
