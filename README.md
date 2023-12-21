@@ -27,7 +27,7 @@ Below we describe which labels the auxiliary tasks in each dataset were assigned
  - Auxiliary task 2 (rough categorization 2) : animal(0), machine(1), others(2)
 
 # How labels for auxiliary tasks are assigned based on the identity class?
-For example, the MNIST dataset originally contains 10 digit classes from 0 to 9 as identity labels. Then two auxiliary tasks are assigned as below.
+For example, the MNIST dataset originally contains 10 digit classes from 0 to 9 as identity labels. Then, labels for two auxiliary tasks are assigned as below.
 | identity | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |
 |:--------:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 | auxtask1 | 0 | 1 | 0 | 1 | 0 | 1 | 0 | 1 | 0 | 1 |
