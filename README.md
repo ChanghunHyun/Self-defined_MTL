@@ -38,5 +38,10 @@ For example, the MNIST dataset originally contains 10 digit classes from 0 to 9 
 | auxtask1 (odd-even)        | 0 | 1 | 0 | 1 | 0 | 1 | 0 | 1 | 0 | 1 |
 | auxtask2 (prime-composite) | 0 | 0 | 1 | 1 | 0 | 1 | 0 | 1 | 0 | 0 |
 
+# Follow-up Research: MP(Mixed Perturbations) for Adversarial Training
+The auxiliary tasks provided in this repository also can be used for our perturbation generation method for defensive purpose.
+![그림1](https://github.com/user-attachments/assets/03619193-4d44-4863-99bd-28567e8ecdaa)
+
+
 # Regarding License
 The licenses for MNIST, CIFAR10, and GTSRB datasets explicitly state that users have the freedom to merge, modify, and distribute the datasets as they wish. SVHN and Tiny ImageNet datasets' licenses grant free usage only for non-commercial purposes. The dataset files uploaded in this repository are strongly recommended for academic purposes exclusively. Any violation of this recommendation or misuse of these datasets beyond academic use shall be the sole responsibility of the user.
