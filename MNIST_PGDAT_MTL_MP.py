@@ -6,8 +6,14 @@
 #   - Provides only the essential components of the adversarial training pipeline with Mixed Perturbation(MP).
 #   - Users can customize it freely.
 #   - For example, someone might want to add a learning rate scheduler, or change output dimensions to suit their specific dataset. 
+#   - This code has been tested with the following environment. Compatibility with other versions is not guaranteed, and any issues must be resolved by the user.
+#      - Python 3.8  
+#      - Pytorch 2.1.2
+#      - torch==1.8.0+cu111  
+#      - torchvision==1.8.0+cu111 
+#      - torchsummary==1.5.1
+#      - advertorch==0.2.4  
 #----------------------------------------------------------------------------------------------------------------------------------------
-
 
 import time
 import random
