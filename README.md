@@ -38,6 +38,12 @@ For example, the MNIST dataset originally contains 10 digit classes from 0 to 9 
 | auxtask1 (odd-even)        | 0 | 1 | 0 | 1 | 0 | 1 | 0 | 1 | 0 | 1 |
 | auxtask2 (prime-composite) | 0 | 0 | 1 | 1 | 0 | 1 | 0 | 1 | 0 | 0 |
 
+The figure below illustrates the task generation mechanism proposed in (https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10409191)
+
+![그림1d](https://github.com/user-attachments/assets/06e06517-3951-4adc-8e2c-84a06c7cfa53)
+
+This is a semi-formal approach requring user-established criteria(we denote it as a mapping function Pm in figure above) for regrouping the existing labels(identity) to generate new tasks.
+
 # Follow-up Research: MP(Mixed Perturbations) for AT(Adversarial Training)
 The auxiliary tasks provided in this repository also can be used for our perturbation generation method.
 The figure below illustrates the mechanism of MP.
