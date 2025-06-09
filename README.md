@@ -28,10 +28,10 @@ Below we describe which labels the auxiliary tasks in each dataset were assigned
 
 # How labels for auxiliary tasks are assigned based on the identity class?
 For example, the MNIST dataset originally contains 10 digit classes from 0 to 9 as identity labels. Then, labels for two auxiliary tasks are assigned as below.
-| identity                  | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |
-|:-------------------------:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-| auxtask1(odd-even)        | 0 | 1 | 0 | 1 | 0 | 1 | 0 | 1 | 0 | 1 |
-| auxtask2(prime-composite) | 0 | 0 | 1 | 1 | 0 | 1 | 0 | 1 | 0 | 0 |
+| identity                   | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |
+|:--------------------------:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+| auxtask1 (odd-even)        | 0 | 1 | 0 | 1 | 0 | 1 | 0 | 1 | 0 | 1 |
+| auxtask2 (prime-composite) | 0 | 0 | 1 | 1 | 0 | 1 | 0 | 1 | 0 | 0 |
 
 # Regarding License
 The licenses for MNIST, CIFAR10, and GTSRB datasets explicitly state that users have the freedom to merge, modify, and distribute the datasets as they wish. SVHN and Tiny ImageNet datasets' licenses grant free usage only for non-commercial purposes. The dataset files uploaded in this repository are strongly recommended for academic purposes exclusively. Any violation of this recommendation or misuse of these datasets beyond academic use shall be the sole responsibility of the user.
