@@ -53,6 +53,8 @@ The figure below illustrates the mechanism of MP.
 
 MP generates perturbations using the gradient information from each task and then combines them via a weighted summation to produce the final perturbation. This approach diversifies the directions of the generated perturbations, yielding a richer set of adversarial examples for AT. Because MP fuses task information at the final weighting stage, it also makes it straightforward to control and analyze the directionality of the final perturbation.
 
+An example code is available: MNIST_PGDAT_MTL_MP.py
+
 
 # Regarding License
 The licenses for MNIST, CIFAR10, and GTSRB datasets explicitly state that users have the freedom to merge, modify, and distribute the datasets as they wish. SVHN and Tiny ImageNet datasets' licenses grant free usage only for non-commercial purposes. The dataset files uploaded in this repository are strongly recommended for academic purposes exclusively. Any violation of this recommendation or misuse of these datasets beyond academic use shall be the sole responsibility of the user.
