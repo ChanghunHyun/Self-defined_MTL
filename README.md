@@ -1,5 +1,6 @@
 # Regarding the repository
 This repository contains the dataset used in our work “Multi-task Learning with Self-Defined Tasks for Adversarial Robustness of Deep Networks” published in IEEE Access 2024. 
+
 —see the full text [here] https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10409191
 
 The dataset files were initially created for personal academic purpose but have been uploaded, considering their potential usefulness for other researchers in the field.
@@ -7,6 +8,8 @@ The dataset files contain manually generated labels of MNIST, CIFAR10, GTSRB, SV
 The auxiliary tasks were generated based on the built-in labels (identity labels) provided by the original dataset.
 The auxiliary tasks were generated based on the visual or abstract characteristics of the data. 
 Note that the manually generated labels may not accurately categorize each data sample. Especially the auxiliary tasks for Tiny ImageNet were generated with rough categorization.
+
+Additionally, in our follow-up research, we propose a novel perturbation generation method that leverages auxiliary tasks, and the corresponding code is included here as well.
 
 # Link to Data files
 https://drive.google.com/drive/folders/10FVu_ap3EeIqCQJ2UxkBrdccSAd-7rHU?usp=sharing
