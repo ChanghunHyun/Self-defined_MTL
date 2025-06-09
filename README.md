@@ -38,9 +38,13 @@ For example, the MNIST dataset originally contains 10 digit classes from 0 to 9 
 | auxtask1 (odd-even)        | 0 | 1 | 0 | 1 | 0 | 1 | 0 | 1 | 0 | 1 |
 | auxtask2 (prime-composite) | 0 | 0 | 1 | 1 | 0 | 1 | 0 | 1 | 0 | 0 |
 
-# Follow-up Research: MP(Mixed Perturbations) for Adversarial Training
-The auxiliary tasks provided in this repository also can be used for our perturbation generation method for defensive purpose.
-![그림1](https://github.com/user-attachments/assets/03619193-4d44-4863-99bd-28567e8ecdaa)
+# Follow-up Research: MP(Mixed Perturbations) for AT(Adversarial Training)
+The auxiliary tasks provided in this repository also can be used for our perturbation generation method.
+The figure below illustrates the mechanism of MP.
+![그림1](https://github.com/user-attachments/assets/6190b8fc-ec93-4f94-a1f7-b3ed409660e7)
+MP generates perturbations using the gradient information from each task and then combines them via a weighted summation to produce the final perturbation. This approach diversifies the directions of the generated perturbations, yielding a richer set of adversarial examples for AT. Because MP fuses task-specific information at the final weighting stage, it also makes it straightforward to control and analyze the directionality of the final perturbation.
+
+
 
 
 # Regarding License
