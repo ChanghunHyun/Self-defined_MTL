@@ -40,9 +40,10 @@ For example, the MNIST dataset originally contains 10 digit classes from 0 to 9 
 
 The figure below illustrates the task generation mechanism proposed in (https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10409191)
 
-![그림1d](https://github.com/user-attachments/assets/06e06517-3951-4adc-8e2c-84a06c7cfa53)
+![그림1d](https://github.com/user-attachments/assets/69969d4e-7d07-421b-9caa-6db9d7eb357a)
 
-This is a semi-formal approach requring user-established criteria(we denote it as a mapping function Pm in figure above) for regrouping the existing labels(identity) to generate new tasks.
+
+This is a semi-formal approach requring user-established criteria(we denote it as a mapping function __*P<sub>m</sub>*__ in figure above) for regrouping the existing labels(identity) to generate new tasks.
 
 # Follow-up Research: MP(Mixed Perturbations) for AT(Adversarial Training)
 The auxiliary tasks provided in this repository also can be used for our perturbation generation method.
@@ -50,9 +51,7 @@ The figure below illustrates the mechanism of MP.
 
 ![그림1](https://github.com/user-attachments/assets/1960a1b9-5801-4223-96bb-305969899667)
 
-MP generates perturbations using the gradient information from each task and then combines them via a weighted summation to produce the final perturbation. This approach diversifies the directions of the generated perturbations, yielding a richer set of adversarial examples for AT. Because MP fuses task-specific information at the final weighting stage, it also makes it straightforward to control and analyze the directionality of the final perturbation.
-
-
+MP generates perturbations using the gradient information from each task and then combines them via a weighted summation to produce the final perturbation. This approach diversifies the directions of the generated perturbations, yielding a richer set of adversarial examples for AT. Because MP fuses task information at the final weighting stage, it also makes it straightforward to control and analyze the directionality of the final perturbation.
 
 
 # Regarding License
